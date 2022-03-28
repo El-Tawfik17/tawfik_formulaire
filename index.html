@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulaire DWWM</h1>
+    <form action="">
+     <div class="name_block"><label for="nom" class="name_lab">Nom</label> <input type="text" name="nom" placeholder="Entrez votre nom" id="name" class="name_input"></div>  
+    <p class="email_block"><label for="email" class="email_lab">Email </label><input type="email" name="email"  placeholder="Entrez votre email" id="email" class="email_input"> </p>
+    <p class="satisfact_block"><label for="satisfaction" class="satisfact_lab">Indiquez votre satisfaction </label> <input type="tel" name="satisfaction" placeholder="numéro de 1 à 10" id="satisfaction" class="satisfact_input"></p>
+    <div class="word"> au cours de 1 à 10</div>
+    <p class="coach_block">
+        <label for="coach" class="coach_lab">Qui est votre Coach?</label> 
+       
+           <select name="coach" id="coach">
+            <option value="birante" >Birante</option>
+            <option value="malick">Malick Ba</option>
+            <option value="mamadou">Mamadou</option>
+            </select>
+    
+    </p>
+        <div>
+            <p class="time_word"> A quel moment avez-vous <span>cours?</span>  </p>
+   
+    
+                <p class="time_select">
+                    <input type="radio" name="horaire" value="matin" id="matin" > <label for="matin">Matin</label><br>
+                    <input type="radio" name="horaire" value="apres-midi" id="apres-midi" > <label for="apres-midi">Après-midi</label><br>
+                    <input type="radio" name="horaire" value="soir" id="soir" > <label for="soir">Soir</label>
+                </p>
+
+        </div>
+    <div class="competence">
+            <p class="tool_word">Quels outils avez-vous <span class="tool_span"> rencontréés jusque là ?</span> (selectionnez tout ce qui  <span class="tool_apply"> s'applique)</span></p>
+         
+        <div class="tool_check">
+            <p><input type="checkbox" name="html"   id="html" > <label for="html">HTML</label></p>
+            <p> <input type="checkbox" name="csss"    id="csss" > <label for="csss">CSSS</label></p>
+            <p> <input type="checkbox" name="javascript"   id="javascript" > <label for="javascript">Javascript</label></p>
+            <p> <input type="checkbox" name="editeur"   id="editeur" > <label for="editeur">Editeur de texte</label> </p>
+            <p> <input type="checkbox" name="ligne de commande"   id="ligne de commande" > <label for="ligne de commande">Ligne de commande</label> </p>
+        </div>
+    
+    </div>       
+    
+     <div> <label for="experience" class="comment_word">Décrivez votre expérience <span class="comment_span"> jusque là</span></label><textarea name="experience" id="experience" cols="30" rows="5
+      " placeholder="Décrivez votre expérience ici..." class="comment_space"></textarea>
+    </div>
+ 
+ <div class="bouuton"> <input type="submit" value="Envoyer" class="bouton"> </div>
+</form>
+
+</body>
+</html>

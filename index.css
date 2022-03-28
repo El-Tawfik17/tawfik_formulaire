@@ -1,0 +1,116 @@
+body{
+       background-color:#A9D7E9;
+}
+
+.name_lab{
+           margin-right: 10px;
+ }
+ .email_lab{
+          margin-right: 10px;
+}
+.email_input{
+          margin-left:21px;
+}
+ .name_input{
+           margin-left: 20px;
+ }
+ .word{
+           display: inline;
+           margin-left: 55px;
+ }
+ .name_block{
+           margin-left: 161px;
+ }
+ .email_block{
+           margin-left: 154px;
+ }
+ .satisfact_block{
+           margin-left: 24px;
+
+ }
+ .satisfact_lab{
+           margin-right: 18px;
+ }
+ .satisfact_input{
+           margin-left: 10px;
+
+ }
+ .coach_block{
+        margin-left: 36px;   
+ }
+ .coach_lab{
+           margin-left: 25px;
+ }
+ select{
+           margin-left: 25px;
+
+ }
+ .time_word{
+           display: inline-block;
+           margin-left: 27px;
+           vertical-align: 25px;
+ }
+ .competence{
+           margin-left: 49px;
+ }
+ .time_select{
+           display: inline-block;
+           margin-left: 20px;
+ }
+ span{
+           display: block;
+           margin-left: 126px;
+ }
+ .tool_word{
+           display: inline-block;
+           vertical-align: 91px;
+ }
+ .tool_check{
+           display: inline-block;
+           margin-left: 13px;
+ }
+ .tool_span{
+           display:block;
+           margin-left: 0px;
+ }
+ .tool_apply{
+           display: block;
+           margin-left: 87px;
+ }
+ .comment_word{
+           display: inline-block;
+           margin-left: 54px;
+ }
+ .comment_space{
+           display: inline-block;
+           margin-left: 26px;
+ }
+ .comment_span{
+           display: block;
+           margin-left: 108px;
+ }
+ .bouuton{
+       margin-left: 190px;
+    vertical-align: -51px;
+    display: inline;
+    
+}
+.bouton{
+       background-color: #6BA2CE;
+       border-width:0px;
+       border-radius: 5px;
+       height: 30px;
+
+}
+ form{
+       margin-left:10%;
+       margin-right:10%;
+       background-color:#F3F3F3;
+       padding: 20px;
+       border-radius: 10px;
+       padding-left:10%;
+       padding-right: 10%;
+ }
+ h1{
+        text-align: center;
+ }
