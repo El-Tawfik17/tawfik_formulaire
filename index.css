@@ -79,7 +79,8 @@ body{
  }
  .comment_word{
            display: inline-block;
-           margin-left: 54px;
+           margin-left: 35px;
+           vertical-align: 43px;
  }
  .comment_space{
            display: inline-block;
@@ -93,6 +94,7 @@ body{
        margin-left: 190px;
     vertical-align: -51px;
     display: inline;
+    padding: 7px;
     
 }
 .bouton{
@@ -100,6 +102,8 @@ body{
        border-width:0px;
        border-radius: 5px;
        height: 30px;
+       width: 100px;
+       height: 40px;
 
 }
  form{
